@@ -10,5 +10,5 @@ let f = 60
 
 console.log(a > b && b < c)
 console.log(a === a || a === d) 
-console.log(!b > e) 
-console.log(!b > e || !e > f) 
+console.log(!(b > e)) 
+console.log(!(b > e || e > f)) 
